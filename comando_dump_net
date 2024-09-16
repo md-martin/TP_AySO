@@ -1,0 +1,3 @@
+El comando utilizado para realizar dicho dump traffic es tpcdump
+El comando -i nos ayuda a seleccionar la interfaz de red que deseamos monitorear
+El comando -w sera el responsable de indicar donde seran almacenados dihos datos
