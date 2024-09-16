@@ -1,0 +1,156 @@
+do-release-upgrade
+sudo apt install manpages-es manpages-es-extra
+man
+$man
+man man
+clear
+sudo apt install manpages-es manpages-es-extra
+man man
+clear
+sudo apt-get install manpages-es manpages-es-extra
+man ls
+clear
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+grep "model name" head -n1
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+clear
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+git status
+clear
+man grep
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k8
+clear
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k8
+clear
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > "lista_ordenada"
+ls
+cat lista_ordenada 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada (Salieron solo 8)"
+git status 
+clear
+man sudo
+apropos dump
+clear
+apropos dump traffic
+clear
+apropos tcpdump
+clar
+clear
+man tcpdump
+clear
+man grep tcpdump
+man sumo
+clear
+man sudo
+sudo
+clear
+sudo
+man sudo
+clear
+sudo tcpdump -i "comando_dump_net" -w archivo_dump.pcap
+sudo tcpdump -D
+tcpdump
+clear
+sudo iftop
+sudo nload
+ip a
+ip r
+clear
+git status
+echo "El comando utilizado para realizar dicho dump traffic es tpcdump" > comando_dump_net
+ls
+echo "El comando -i nos ayuda a seleccionar la interfaz de red que deseamos monitorear" >> comando_dump_net 
+echo "El comando -w sera el responsable de indicar donde seran almacenados dihos datos" >> comando_dump_net 
+ls
+cat comando_dump_net 
+clear
+git add .
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+git status 
+clear
+cat << EOF >> README.md 
+Alumno: Cesar Martin Della Monica
+Division: 318
+Turno: Noche
+EOF
+
+cat README.md 
+cat << EOF >> README.md 
+EOF
+
+cat README.md 
+clear
+cat << EOF > README.md 
+# TP_AySO
+Alumno: Cesar Martin Della Monica
+Division: 318
+Turno: Noche
+EOF
+
+cat README.md 
+clear
+git add .
+git commit -m "docs: Se añadio informacion del alumno: Nombre, Division y Turno. al README.md"
+ls
+cat lista_ordenada 
+clear
+ssh-keygen -t ed25519
+ls -la
+ls l .ssh
+cat .ssh/id_ed25519.pub
+clear
+ls
+cd repogit
+ls
+git clone git@github.com:md-martin/TP_AySO.git
+cd TP_AySO/
+grep -i home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+clear
+git add .
+git config --global user.email "cesarmartindellamonica@hotmail.com"
+git config --global user.name "md-martin"
+git commit -m "ADD: agregado  el primer ejercicio sobre datos_usuarios.txt"
+git status
+clear
+grep "model name" /proc/cpuinfo | head -n1
+ls
+cd repogit/
+ls
+cd TP_AySO/
+ls
+clear
+ls
+git status
+status
+git status
+clear
+ls
+cat comando_dump_net 
+cat datos_usuario.txt 
+cat lista_ordenada 
+clear
+ls
+clear
+man history
+history -a
+cat $HOME/.bash_history 
+clear
+cat ~/.bash_history 
+clear
+history -a ~/.bash_history 
